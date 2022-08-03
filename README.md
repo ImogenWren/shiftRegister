@@ -1,2 +1,7 @@
 # shiftRegister
-Basic shift register library using bitwise operations. Accessible using Arduino friendly API
+_Simple API for interacting with a 4094 shift register, Accessible using Arduino friendly API_
+
+    Imogen Heard
+    5.05.2022
+
+
