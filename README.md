@@ -26,7 +26,6 @@ Setup function must be run once before accessing shiftRegister object to set pin
 
 `shiftReg.begin();`<br> 
 
-<br><br>
 
 
 ### Accessing Shiftregister Pins
