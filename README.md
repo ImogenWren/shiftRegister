@@ -10,7 +10,7 @@ Imogen Heard <br>
 
 ### Precompiler Requirements<br>
 
-`#include <shiftRegister.h>   // Libary include`  <br> <br>
+`#include <shiftRegister.h>   // Libary include`  <br> 
 
 ### Object Constructors
 
@@ -24,7 +24,7 @@ Declaring a shiftRegister object:
 
 Setup function must be run once before accessing shiftRegister object to set pins to output mode. <br>
 
-`shiftReg.begin();`<br> <br>
+`shiftReg.begin();`<br> 
 
 <br><br>
 
@@ -33,9 +33,9 @@ Setup function must be run once before accessing shiftRegister object to set pin
 
 _Accessing the shiftregister pins is now almost as simple as using the `digitalWrite(PIN_NUMBER, PIN_STATE);` arduino function_<br>
 
-ShiftRegister pins can now be accessed using the following AP: <br>
+ShiftRegister pins can now be accessed using the following API: <br>
 
-`shiftReg.shiftWrite(PIN_NUMBER, STATE);` <br><br>
+`shiftReg.shiftWrite(PIN_NUMBER, STATE);` <br>
 
 Where:
 - PIN_NUMBER is the shift register pin, named Q0, to Q7.
@@ -44,7 +44,7 @@ Where:
 ## Additional Methods
 
 To print the shiftState register to the serial monitor.
-`shiftReg.printState();` <br><br>
+`shiftReg.printState();` <br>
 
 
 ## shiftPinArry
