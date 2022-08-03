@@ -31,4 +31,23 @@ Setup function must be run once before accessing shiftRegister object to set pin
 
 ### Accessing Shiftregister Pins
 
-_Accessing the shiftregister pins is now almost as simple as using the `digitalWrite(PIN_NUMBER, PIN_STATE);` arduino function.
+_Accessing the shiftregister pins is now almost as simple as using the `digitalWrite(PIN_NUMBER, PIN_STATE);` arduino function_<br>
+
+ShiftRegister pins can now be accessed using the following AP: <br>
+
+`shiftReg.shiftWrite(PIN_NUMBER, STATE);` <br><br>
+
+Where:
+- PIN_NUMBER is the shift register pin, named Q0, to Q7.
+- STATE is HIGH or LOW, true or false, or 1 or 0.
+
+## Additional Methods
+
+To print the shiftState register to the serial monitor.
+`shiftReg.printState();` <br><br>
+
+
+## shiftPinArry
+
+`shiftPinArray[8];` <Br>
+  Contains an array of all shiftregister pin numbers. 
